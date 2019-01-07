@@ -6,369 +6,420 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Taste</title>
-
+  
   <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./public/css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-    crossorigin="anonymous">
+  crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 </head>
 
 <body>
-
+  
   <!-- Debut Header -->
   <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Menu List</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Team</a>
+        </li>
+        <a id="lelogo" class="navbar-brand px-3" href="#"><img src="/public/images/logo.png" width="40px" alt="logo"></a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reservation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Testimonial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+  <div class="slogan"></div>
+  <div class="separation"></div>
+</header>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menu List</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Team</a>
-          </li>
-          <a id="lelogo" class="navbar-brand px-3" href="#"><img src="/public/images/logo.png" width="40px" alt="logo"></a>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Reservation</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Testimonial</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact us</a>
-          </li>
-        </ul>
-
+<!-- debut section about -->
+<section class="about">
+  <div class="story-menu">
+    <div class="story">
+      <h1><span class="courgette">Our</span> story</h1>
+      <img src="/public/images/decoration_line.png" class="myhr" alt="hr">
+      <p>Ut enim ad minim veniam, quised nostrud exe rcitationes ullamcoes laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehe ut labore et dolore magna aliqua. Ut enim ades quised nostrud
+        exercitation nderit in voluptate. Excepteur sint occaecat cupidata non proident, sunt in culpa qui officia
+        deseruntes volu ptate accusantium doloreds mque laudantium, totam rem aperiam,Lorem ipsum dolor sit ametLorem
+        ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor in subascidi dunt ut labore et
+        dolore magna aliqua</p>
       </div>
-    </nav>
-    <div class="slogan"></div>
-    <div class="separation"></div>
-  </header>
-
-  <!-- debut section about -->
-  <section class="about">
-    <div class="story-menu">
-      <div class="story">
-        <h1><span class="courgette">Our</span> story</h1>
-        <img src="/public/images/decoration_line.png" class="myhr" alt="hr">
-        <p>Ut enim ad minim veniam, quised nostrud exe rcitationes ullamcoes laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehe ut labore et dolore magna aliqua. Ut enim ades quised nostrud
-          exercitation nderit in voluptate. Excepteur sint occaecat cupidata non proident, sunt in culpa qui officia
-          deseruntes volu ptate accusantium doloreds mque laudantium, totam rem aperiam,Lorem ipsum dolor sit ametLorem
-          ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor in subascidi dunt ut labore et
-          dolore magna aliqua</p>
-      </div>
-
+      
       <div class="menu">
         <h1><span class="courgette">Our</span> menu list</h1>
         <img src="/public/images/decoration_line.png" class="myhr" alt="hr">
         <div class="col-12">
           <div class="row">
-
+            
             <div class="col-2 align-center">
               <div class="choose-active">
                 <i class="fas fa-mug-hot icone-cofee"></i>
                 <p>Breakfast</p>
               </div>
-
+              
               <div class="choose">
                 <i class="fas fa-utensils icone-others"></i>
                 <p>Lunch</p>
               </div>
-
+              
               <div class="choose">
                 <i class="fas fa-concierge-bell icone-others"></i>
                 <p>Snack</p>
               </div>
-
+              
               <div class="choose">
                 <i class="fas fa-mug-hot icone-others"></i>
                 <p>Dinner</p>
               </div>
-
+              
             </div>
-
+            
             <div class="col-10">
               <div class="row">
-
+                
                 <div class="col-6">
                   <div class="row">
                     <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
-                        alt="menuimage1"></div>
-                    <div class="col-6 no-padding">
-                      <h2 class="title-cards">Deer Steak with Potatoes</h2>
-                      <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
-                    </div>
-                    <div class="col-2 ml-1">
-                      <div class="price">$25</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-6">
-                  <div class="row">
-                    <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
-                        alt="menuimage1"></div>
-                    <div class="col-6 no-padding">
-                      <h2 class="title-cards">Deer Steak with Potatoes</h2>
-                      <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
-                    </div>
-                    <div class="col-2 ml-1">
-                      <div class="price">$25</div>
+                      alt="menuimage1"></div>
+                      <div class="col-6 no-padding">
+                        <h2 class="title-cards">Deer Steak with Potatoes</h2>
+                        <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
+                      </div>
+                      <div class="col-2 ml-1">
+                        <div class="price">$25</div>
+                      </div>
                     </div>
                   </div>
-                </div>
-
-                <div class="col-6">
-                  <div class="row">
-                    <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
+                  
+                  <div class="col-6">
+                    <div class="row">
+                      <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
                         alt="menuimage1"></div>
-                    <div class="col-6 no-padding">
-                      <h2 class="title-cards">Deer Steak with Potatoes</h2>
-                      <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
+                        <div class="col-6 no-padding">
+                          <h2 class="title-cards">Deer Steak with Potatoes</h2>
+                          <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
+                        </div>
+                        <div class="col-2 ml-1">
+                          <div class="price">$25</div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="col-2 ml-1">
-                      <div class="price">$25</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-6">
-                  <div class="row">
-                    <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
-                        alt="menuimage1"></div>
-                    <div class="col-6 no-padding">
-                      <h2 class="title-cards">Deer Steak with Potatoes</h2>
-                      <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
-                    </div>
-                    <div class="col-2 ml-1">
-                      <div class="price">$25</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-6">
-                  <div class="row">
-                    <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
-                        alt="menuimage1"></div>
-                    <div class="col-6 no-padding">
-                      <h2 class="title-cards">Deer Steak with Potatoes</h2>
-                      <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
-                    </div>
-                    <div class="col-2 ml-1">
-                      <div class="price">$25</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-6">
-                  <div class="row">
-                    <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
-                        alt="menuimage1"></div>
-                    <div class="col-6 no-padding">
-                      <h2 class="title-cards">Deer Steak with Potatoes</h2>
-                      <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
-                    </div>
-                    <div class="col-2 ml-1">
-                      <div class="price">$25</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-6">
-                  <div class="row">
-                    <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
-                        alt="menuimage1"></div>
-                    <div class="col-6 no-padding">
-                      <h2 class="title-cards">Deer Steak with Potatoes</h2>
-                      <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
-                    </div>
-                    <div class="col-2 ml-1">
-                      <div class="price">$25</div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-6">
-                  <div class="row">
-                    <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
-                        alt="menuimage1"></div>
-                    <div class="col-6 no-padding">
-                      <h2 class="title-cards">Deer Steak with Potatoes</h2>
-                      <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
-                    </div>
-                    <div class="col-2 ml-1">
-                      <div class="price">$25</div>
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <img src="/public/images/decoration_line.png" class="myhr m-5" alt="hr">
-      </div>
-  </section>
-
-  <!-- debut section our chefs -->
-
-  <section class="ourchefs">
-    <h1 class=""><span class="courgette">Meet</span> our chefs</h1>
-    <img src="/public/images/decoration_line.png" class="myhr" alt="hr">
-    <div class="container">
-      <div class="row">
-        <div class="col-3">
-          <img src="/public/images/chef1.png" alt="chef1">
-          <p>Lorem Ipsum</p>
-        </div>
-        <div class="col-3">
-          <img src="/public/images/chef2.png" alt="chef2">
-          <p>Lorem Ipsum</p>
-        </div>
-        <div class="col-3">
-          <img src="/public/images/chef3.png" alt="chef3">
-          <p>Lorem Ipsum</p>
-        </div>
-        <div class="col-3">
-          <img src="/public/images/chef4.png" alt="chef4">
-          <p>Lorem Ipsum</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- debut section formulaire -->
-  <section class="section-form">
-    <div class="form">
-
-      <h1><span class="courgette">Our</span> menu list</h1>
-      <img src="/public/images/decoration_line.png" class="myhr" alt="hr">
-
-      <div class="formulaire">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="text-white for-questions mt-4">For any questions please call us at: <span class="for-questions-bold">++91-1234567890</span></h1>
-          </div>
-          <div class="col-6 mx-auto">
-            <div class="row">
-              <div class="col-6">
-
-                <input class="input-style" type="text" value="Enter Full Name">
-                <input class="input-style" type="text" value="Enter Id">
-                <input class="input-style" type="text" value="Phone Number">
-              </div>
-
-
-              <div class="col-6">
-                <input class="input-style" type="text" value="Number of person">
-                <input class="input-style" data-format="yyyy-MM-dd" type="text" class="form-control" value="Date">
-                <input class="input-style" type="text" value="Time">
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <button class="button-style" type="button">Book Now</button>
-      </div>
-
-      <div class="our-blog">
-        <h1><span class="courgette">Our</span> blog</h1>
-        <img src="/public/images/decoration_line.png" class="myhr" alt="hr">
-
-        <div class="container pt-5">
-          <div class="row">
-
-            <div class="col-6">
-              <img class="img-blog" src="/public/images/blog_img1.jpg" alt="salade">
-              <div class="comments">
-                <span class="font-weight-bold">12</span> April 2017/ <span class="font-weight-bold">20</span> comment/
-                <span class="font-weight-bold">35</span> likes
-              </div>
-              <h6 class="font-weight-bold text-left offset-1 mt-5">Lorem Ipsum</h3>
-                <p class="text-left offset-1">Lorem Ipsum is simply dummy text of the printing and typesettin industry.</p>
-            </div>
-
-            <div class="col-6">
-              <img class="img-blog" src="/public/images/blog_img2.jpg" alt="salade2">
-              <div class="comments">
-                <span class="font-weight-bold">12</span> April 2017/ <span class="font-weight-bold">20</span> comment/
-                <span class="font-weight-bold">35</span> likes
-              </div>
-              <h6 class="font-weight-bold text-left offset-1 mt-5">Lorem Ipsum</h3>
-                <p class="text-left offset-1">Lorem Ipsum is simply dummy text of the printing and typesetting
-                  industry.</p>
-            </div>
-          </div>
-        </div>
-        <button class="button-style mt-n1 text-uppercase" type="button">know more</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- debut client testimonial -->
-  <section class="testimonial pt-5 pb-5">
-    <h1><span class="courgette">CLIENT</span> Testimonials</h1>
-    <img src="/public/images/decoration_line.png" class="myhr mb-5 pt-2" alt="hr">
-    <div class=" mt-5">
-      <div class="row m-1">
-        <div class="col-2"><img class="img-comments" src="/public/images/testimonial1.jpg" alt="testimonial"></div>
-        <div class="col-3 text-left testimonial-pics pl-4 pt-4">
-          <h6 class="font-weight-bold">Lorem Ipsum</h6>
-          <h5 class="manager">Manager</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor nnin subascidi dunt ut</p>
-
-        </div>
-        <div class="col-3 ml-5 text-left testimonial-pics pl-4 pt-4">
-          <h6 class="font-weight-bold">Lorem Ipsum</h6>
-          <h5 class="manager">Manager</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor in subascidi dunt ut</p>
-        </div>
-        <div class="col-2"><img class="img-comments" src="/public/images/testimonial1.jpg" alt="testimonial"></div>
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- debut section our contact -->
-  <section class="contact pt-5">
-    <h1><span class="courgette">OUR</span> Contact</h1>
-    <img src="/public/images/decoration_line.png" class="myhr mb-5 pt-2" alt="hr">
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-4 contact-box mx-auto mb-5">
-              <i class="fas fa-map-marker-alt icones-contact"></i>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <hr class="hr-contact">
-              <i class="fas fa-phone fa-flip-horizontal icones-contact"></i>
-              <p>+91-9876543210</p>
-              <hr class="hr-contact">
-              <i class="fas fa-envelope icones-contact"></i>
-              <p>abc@abc.com</p>
-          </div>
-        </div>
-      </div>
-  </section>
-
-  <!-- debut footer -->
-
-  <script src="/public/js/js.js"></script>
-</body>
-
-</html>
+                    
+                    <div class="col-6">
+                      <div class="row">
+                        <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
+                          alt="menuimage1"></div>
+                          <div class="col-6 no-padding">
+                            <h2 class="title-cards">Deer Steak with Potatoes</h2>
+                            <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
+                          </div>
+                          <div class="col-2 ml-1">
+                            <div class="price">$25</div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
+                            alt="menuimage1"></div>
+                            <div class="col-6 no-padding">
+                              <h2 class="title-cards">Deer Steak with Potatoes</h2>
+                              <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
+                            </div>
+                            <div class="col-2 ml-1">
+                              <div class="price">$25</div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="col-6">
+                          <div class="row">
+                            <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
+                              alt="menuimage1"></div>
+                              <div class="col-6 no-padding">
+                                <h2 class="title-cards">Deer Steak with Potatoes</h2>
+                                <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
+                              </div>
+                              <div class="col-2 ml-1">
+                                <div class="price">$25</div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="col-6">
+                            <div class="row">
+                              <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
+                                alt="menuimage1"></div>
+                                <div class="col-6 no-padding">
+                                  <h2 class="title-cards">Deer Steak with Potatoes</h2>
+                                  <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
+                                </div>
+                                <div class="col-2 ml-1">
+                                  <div class="price">$25</div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="col-6">
+                              <div class="row">
+                                <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
+                                  alt="menuimage1"></div>
+                                  <div class="col-6 no-padding">
+                                    <h2 class="title-cards">Deer Steak with Potatoes</h2>
+                                    <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
+                                  </div>
+                                  <div class="col-2 ml-1">
+                                    <div class="price">$25</div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <div class="col-6">
+                                <div class="row">
+                                  <div class="col-3 no-padding"><img class="rounded-circle img-thumbnail image-menu" src="/public/images/menu_image_1.jpg"
+                                    alt="menuimage1"></div>
+                                    <div class="col-6 no-padding">
+                                      <h2 class="title-cards">Deer Steak with Potatoes</h2>
+                                      <p class="title-p">Welcome to Risotto restaurant website. Here we try to share our</p>
+                                    </div>
+                                    <div class="col-2 ml-1">
+                                      <div class="price">$25</div>
+                                    </div>
+                                  </div>
+                                </div>
+                                
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <img src="/public/images/decoration_line.png" class="myhr m-5" alt="hr">
+                      </div>
+                    </section>
+                    
+                    <!-- debut section our chefs -->
+                    
+                    <section class="ourchefs">
+                      <h1 class=""><span class="courgette">Meet</span> our chefs</h1>
+                      <img src="/public/images/decoration_line.png" class="myhr" alt="hr">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-3">
+                            <img src="/public/images/chef1.png" alt="chef1">
+                            <p>Lorem Ipsum</p>
+                          </div>
+                          <div class="col-3">
+                            <img src="/public/images/chef2.png" alt="chef2">
+                            <p>Lorem Ipsum</p>
+                          </div>
+                          <div class="col-3">
+                            <img src="/public/images/chef3.png" alt="chef3">
+                            <p>Lorem Ipsum</p>
+                          </div>
+                          <div class="col-3">
+                            <img src="/public/images/chef4.png" alt="chef4">
+                            <p>Lorem Ipsum</p>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                    
+                    <!-- debut section formulaire -->
+                    <section class="section-form">
+                      <div class="form">
+                        
+                        <h1><span class="courgette">Our</span> menu list</h1>
+                        <img src="/public/images/decoration_line.png" class="myhr" alt="hr">
+                        
+                        <div class="formulaire">
+                          <div class="row">
+                            <div class="col-12">
+                              <h1 class="text-white for-questions mt-4">For any questions please call us at: <span class="for-questions-bold">++91-1234567890</span></h1>
+                            </div>
+                            <div class="col-6 mx-auto">
+                              <div class="row">
+                                <div class="col-6">
+                                  
+                                  <input class="input-style" type="text" value="Enter Full Name">
+                                  <input class="input-style" type="text" value="Enter Id">
+                                  <input class="input-style" type="text" value="Phone Number">
+                                </div>
+                                
+                                
+                                <div class="col-6">
+                                  <input class="input-style" type="text" value="Number of person">
+                                  <input class="input-style" data-format="yyyy-MM-dd" type="text" class="form-control" value="Date">
+                                  <input class="input-style" type="text" value="Time">
+                                </div>
+                                
+                              </div>
+                            </div>
+                          </div>
+                          <button class="button-style" type="button">Book Now</button>
+                        </div>
+                        
+                        <div class="our-blog">
+                          <h1><span class="courgette">Our</span> blog</h1>
+                          <img src="/public/images/decoration_line.png" class="myhr" alt="hr">
+                          
+                          <div class="container pt-5">
+                            <div class="row">
+                              
+                              <div class="col-6">
+                                <img class="img-blog" src="/public/images/blog_img1.jpg" alt="salade">
+                                <div class="comments">
+                                  <span class="font-weight-bold">12</span> April 2017/ <span class="font-weight-bold">20</span> comment/
+                                  <span class="font-weight-bold">35</span> likes
+                                </div>
+                                <h6 class="font-weight-bold text-left offset-1 mt-5">Lorem Ipsum</h3>
+                                  <p class="text-left offset-1">Lorem Ipsum is simply dummy text of the printing and typesettin industry.</p>
+                                </div>
+                                
+                                <div class="col-6">
+                                  <img class="img-blog" src="/public/images/blog_img2.jpg" alt="salade2">
+                                  <div class="comments">
+                                    <span class="font-weight-bold">12</span> April 2017/ <span class="font-weight-bold">20</span> comment/
+                                    <span class="font-weight-bold">35</span> likes
+                                  </div>
+                                  <h6 class="font-weight-bold text-left offset-1 mt-5">Lorem Ipsum</h3>
+                                    <p class="text-left offset-1">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                      industry.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <button class="button-style mt-n1 text-uppercase" type="button">know more</button>
+                              </div>
+                            </div>
+                          </section>
+                          
+                          <!-- debut client testimonial -->
+                          <section class="testimonial pt-5 pb-5">
+                            <h1><span class="courgette">CLIENT</span> Testimonials</h1>
+                            <img src="/public/images/decoration_line.png" class="myhr mb-5 pt-2" alt="hr">
+                            <div class=" mt-5">
+                              <div class="row m-1">
+                                <div class="col-2"><img class="img-comments" src="/public/images/testimonial1.jpg" alt="testimonial"></div>
+                                <div class="col-3 text-left testimonial-pics pl-4 pt-4">
+                                  <h6 class="font-weight-bold">Lorem Ipsum</h6>
+                                  <h5 class="manager">Manager</h5>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor nnin subascidi dunt ut</p>
+                                  
+                                </div>
+                                <div class="col-3 ml-5 text-left testimonial-pics pl-4 pt-4">
+                                  <h6 class="font-weight-bold">Lorem Ipsum</h6>
+                                  <h5 class="manager">Manager</h5>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor in subascidi dunt ut</p>
+                                </div>
+                                <div class="col-2"><img class="img-comments" src="/public/images/testimonial1.jpg" alt="testimonial"></div>
+                              </div>
+                              
+                            </div>
+                            
+                          </section>
+                          
+                          <!-- debut section our contact -->
+                          <section class="contact pt-5">
+                            <h1><span class="courgette">OUR</span> Contact</h1>
+                            <img src="/public/images/decoration_line.png" class="myhr mb-5 pt-2" alt="hr">
+                            <div class="container mt-5">
+                              <div class="row">
+                                <div class="col-4 contact-box mx-auto mb-5">
+                                  <i class="fas fa-map-marker-alt icones-contact"></i>
+                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                  <hr class="hr-contact">
+                                  <i class="fas fa-phone fa-flip-horizontal icones-contact"></i>
+                                  <p>+91-9876543210</p>
+                                  <hr class="hr-contact">
+                                  <i class="fas fa-envelope icones-contact"></i>
+                                  <p>abc@abc.com</p>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                          <div class="separation-footer"></div>
+                          <!-- debut footer -->
+                          <footer class="footer py-5 px-3">
+                            <div class="container main-footer"></div>
+                            <div class="row mx-auto">
+                              
+                              
+                              <div class="col-4 text-white">
+                                <h6 class="text-uppercase">about US</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                                  ex............</p>
+                                  <i class="fab fa-facebook-f px-3 icones-footer"></i><i class="fab fa-google-plus-g px-3 icones-footer"></i><i
+                                  class="fab fa-pinterest-p px-3 icones-footer"></i><i class="fab fa-linkedin-in px-3 icones-footer"></i>
+                                </div>
+                                
+                                
+                                <div class="col-4 text-white">
+                                  <h6 class="text-uppercase">about US</h6>
+                                  <div class="gallerie">
+                                    <ul class="ul-gallerie">
+                                      <li class="li-gallerie"><a href=""><img src="/public/images/instragram_gallery_img1.jpg" alt=""></a></li>
+                                      <li class="li-gallerie"><a href=""><img src="/public/images/instragram_gallery_img2.jpg" alt=""></a></li>
+                                      <li class="li-gallerie"><a href=""><img src="/public/images/instragram_gallery_img1.jpg" alt=""></a></li>
+                                      <li class="li-gallerie"><a href=""><img src="/public/images/instragram_gallery_img2.jpg" alt=""></a></li>
+                                      <li class="li-gallerie"><a href=""><img src="/public/images/instragram_gallery_img1.jpg" alt=""></a></li>
+                                      <li class="li-gallerie"><a href=""><img src="/public/images/instragram_gallery_img2.jpg" alt=""></a></li>
+                                      <li class="li-gallerie"><a href=""><img src="/public/images/instragram_gallery_img1.jpg" alt=""></a></li>
+                                      <li class="li-gallerie"><a href=""><img src="/public/images/instragram_gallery_img2.jpg" alt=""></a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                                
+                                
+                                <div class="col-4 text-white">
+                                <h6 class="text-uppercase">Popular Tags</h6>
+                                <div class="tags">
+                                  <ul class="ul-tags">
+                                    <li class="li-tags"><a class="a-tags" href="">Restaurant</a></li>
+                                    <li class="li-tags"><a class="a-tags" href="">Responsive Design</a></li>
+                                    <li class="li-tags"><a class="a-tags" href=""></a>Hotel</li>
+                                    <li class="li-tags"><a class="a-tags" href=""></a>Blog Section</li>
+                                    <li class="li-tags"><a class="a-tags" href=""></a>SEO</li>
+                                    <li class="li-tags"><a class="a-tags" href=""></a>Cuisine</li>
+                                    <li class="li-tags"><a class="a-tags" href=""></a>Graphic</li>
+                                    <li class="li-tags"><a class="a-tags" href=""></a>Food</li>
+                                  </ul> 
+                                </div> 
+                              </div>
+                              </div>
+                              
+                            </div>
+                          </footer>
+                          
+                          <script src="/public/js/js.js"></script>
+                        </body>
+                        
+                        </html>
