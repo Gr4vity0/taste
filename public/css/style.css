@@ -9571,4 +9571,258 @@ h3 {
   transition: color 1s ease 0s;
 }
 
+.myhr {
+  margin-top: -2%;
+}
+
+.separation {
+  position: absolute;
+  bottom: 0;
+  height: 10px;
+  width: 100%;
+  background-image: url(../../public/images/bottom_decoration_img.png);
+}
+
+.slogan {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+
+h1 {
+  font-family: "Courgette";
+}
+
+.about {
+  background-image: url(../../public/images/main_bg.jpg);
+}
+
+.story-menu {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.story {
+  background-color: white;
+  border: solid 0.5px black;
+  border-bottom: 0px;
+  text-align: center;
+  padding: 5% 20%;
+}
+
+.menu {
+  background-color: white;
+  border-left: solid 0.5px black;
+  border-right: solid 0.5px black;
+  border-bottom: solid 0.5px black;
+  border-top: 0px;
+  text-align: center;
+}
+
+.carte {
+  width: 100%;
+  margin: 0 -20%;
+}
+
+.title-cards {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.title-p {
+  font-size: 15px;
+}
+
+.price {
+  position: absolute;
+  top: 20%;
+  min-height: 25px;
+  text-align: center;
+  min-width: 65px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #c42d40;
+  background-color: #efefef;
+  line-height: 25px;
+}
+
+.no-padding {
+  padding: 0 0 !important;
+}
+
+.image-menu {
+  width: 100px;
+  height: 100px;
+}
+
+.icone-cofee {
+  font-size: 60px;
+  color: #c42d40;
+}
+
+.icone-others {
+  font-size: 60px;
+  color: #ccc;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.choose {
+  border-bottom: dashed 1px black;
+  margin-bottom: 5px;
+  margin-top: 5%;
+}
+
+.choose-active {
+  border-bottom: dashed 1px black;
+  border-right: solid 5px #c42d40;
+}
+
+.courgette {
+  font-family: "Courgette";
+  color: #c42d40;
+}
+
+.ourchefs {
+  height: 100vh;
+  background-image: url("/public/images/team_background.jpg");
+  background-attachment: fixed;
+  text-align: center;
+  padding-top: 5%;
+  color: white;
+}
+
+.section-form {
+  height: 100%;
+  background-image: url(../../public/images/main_bg.jpg);
+  padding: 5%;
+}
+
+.form {
+  padding: 5%;
+  text-align: center;
+  background-color: white;
+  border: solid 1px black;
+}
+
+.formulaire {
+  background-image: url("/public/images/book_table_bg.jpg");
+  background-size: cover;
+  border-radius: 25px;
+  padding: 5%;
+  margin-top: 20%;
+}
+
+.input-style {
+  border: 1px solid #ccc;
+  width: 100%;
+  color: #000;
+  border-radius: 14px;
+  height: 45px;
+  font-size: 14px;
+  padding: 5%;
+  margin: 5%;
+}
+
+.button-style {
+  background-color: #c42d40;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  height: 50px;
+  width: 20%;
+  margin-top: 8%;
+  font-size: 14px;
+}
+
+.for-questions {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 5%;
+}
+
+.for-questions-bold {
+  font-weight: bold;
+}
+
+.our-blog {
+  margin-top: 15%;
+}
+
+.img-blog {
+  width: 95%;
+  border-radius: 25px;
+  border: 5px solid #e1e0e0;
+  position: relative;
+}
+
+.comments {
+  background-color: #c42d40;
+  border-radius: 25px;
+  color: white;
+  width: 80%;
+  height: 10%;
+  padding: 2%;
+  margin-top: 0%;
+  position: absolute;
+  top: 55%;
+  left: 10%;
+}
+
+.testimonial-pics {
+  border: solid 1px #ffffff;
+  border-radius: 12px;
+}
+
+.manager {
+  font-size: 16px !important;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  color: #dc3c50;
+}
+
+.testimonial {
+  background: url("/public/images/testimonials_background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+.img-comments {
+  border-radius: 50%;
+  border: 4px solid #e1e0e0;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.contact {
+  background-image: url("/public/images/main_bg.jpg");
+  text-align: center;
+}
+
+.contact-box {
+  color: #fff;
+  background-color: #c42d40;
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.icones-contact {
+  font-size: 50px;
+}
+
+.hr-contact {
+  width: 80%;
+  background-color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
